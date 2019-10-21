@@ -13,3 +13,21 @@ We can create a repository using the command gitinit , for that we have to navig
 Cmd commands.
 #Create a directory  (mkdir)                C:\Users\netzary>mkdir devops
 #Create a file inside a directory (type nul >)               type nul > hello.txt   Note:-Don’t press enter after > here we have to specify the file name
+From working directory Git directory
+Gitinit
+o/p Initialized empty Git repository in C:/Users/netzary/devops/.git/
+Knowing the status of files in directory
+Git status
+ 
+Git add :-
+Adding the file so that git can track the files
+Commit
+Once the files or changes have been staged, we are ready to commit them into our repository.we can commit the files using the command
+git commit -m “Custom message”            
+Making changes
+The file will come as modified filename.txt when we type the git status, for saving the modified changes we have to commit the file again in Git.
+Making available to world
+For that we have to create a reposity in github and copy the https link and paste it in cmd.
+
+git remote add origin “<URL to repository>”   
+
