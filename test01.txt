@@ -1,0 +1,15 @@
+What is Git? Why is it used? Basic commands in Git?
+Git is the most popular tool among all the DVCS tools.
+Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple  people, it is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files.
+
+We can do the following tasks when working with GIT,Let us explore the commands related to each of these tasks.
+•	Creating repository
+•	Making changes
+•	Parallel development
+•	Syncing repositories.
+
+Creating repository
+We can create a repository using the command gitinit , for that we have to navigate the project folder and enter the above command to initiate a git repository for our project in local system,(NOTE:- Before doing so make sure we have installed the GIT in windows, Linux OS)
+Cmd commands.
+#Create a directory  (mkdir)                C:\Users\netzary>mkdir devops
+#Create a file inside a directory (type nul >)               type nul > hello.txt   Note:-Don’t press enter after > here we have to specify the file name
